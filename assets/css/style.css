@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background-color: rgb(110, 133, 184);
+}
+h1,
+h2,
+h3,
+h4{
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background: #1d4f79
+}   
+
+.navbar .logo {
+font-size: x-large;
+font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font font-weight: bold;
+}
+
+.navbar a:hover {
+color: rgb(225, 207, 241);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+
+}
+
+ul{
+   list-style-type: none;
+}
+
+
+
+.header {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    /* align-items: center; */
+}
+
+.header ul {
+display:flex;
+gap: 30px;
+}
+
+.hero {
+    display:flex;
+    justify-content:flex-start;
+    padding: 20px;
+    /* height: 600px; */
+    /* width: 200px; */
+    /* margin-bottom: 10px; */
+    /* background-image: url("../images/_MG_6607.jpg");  */
+    /* background-size: cover;
+    background-position:bottom; */
+}
+.hero img {
+    width: 200px;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background-color: rgb(220, 141, 236);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+
+@media (max-width: 768px) {
+.header .container
+flex-direction: column;
+padding-top: 20px;
+text-align: center;
+}
+
+.boxes .container {
+    display: inline-block;
+}
