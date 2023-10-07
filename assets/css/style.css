@@ -134,6 +134,12 @@ gap: 30px;
 
 .My-Work img {
     max-height: 200px;
+    /* margin: auto; */
+    padding: 1%;
+}
+
+.My-Work img :hover{
+    
 }
 
 
