@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+.flex-box{
+    display: flex;
+}
+
+
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -104,7 +109,7 @@ gap: 30px;
 
 .box {
     flex: 1;
-    background-color: rgb(220, 141, 236);
+    background-color: rgb(216, 186, 146);
     border-radius: 10px;
     margin: 20px 10px;
 }
@@ -121,6 +126,15 @@ gap: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 } */
+
+.img-one {
+    height: 50%;
+    width: 50%;
+}
+
+.My-Work img {
+    max-height: 200px;
+}
 
 
 @media (max-width: 768px) {
